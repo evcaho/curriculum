@@ -1,6 +1,6 @@
 # Project: Installations
 
-<!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
+<!-- Improvement Ideas, Extract Linux installation out into its own lesson and make sure its before this lesson,
      Add a few more text editior options to the text editior section. Atom, brackets etc
      Extract the join gitter section to the very first lesson in this course -->
 
@@ -26,22 +26,22 @@ Ok, we get it.. you're very comfortable with the system you've already got runni
 
 Technically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
-The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
+The programmers who created Rails had a preference for unix based operating systems (OSX, Linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
-* Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a linux system, these can be a real pain to solve.
+* Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a Linux system, these can be a real pain to solve.
 
 * The above point extends to the different gems you will be using with Rails in the future. Most of the latest updates to gems will be targeted at unix based systems, they may eventually get patches to make them work with Windows but some may never get updated to work on Windows.
 
 * Because of the instability of Rails on Windows you will probably find yourself second guessing some of the errors and bugs you encounter when developing being caused by either your system or the code you have written.
 
-* Most of the examples throughout the learning process, and most tutorials you come across on the net will assume you are using a linux or mac, you will have to translate these into the equivalent Windows commands yourself.
+* Most of the examples throughout the learning process, and most tutorials you come across on the net will assume you are using a Linux or mac, you will have to translate these into the equivalent Windows commands yourself.
 
 * **Bonus**  Experience with Linux will look great on your CV.
 
 We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
 
 ### Installing Linux
-The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
+The good news is installing Linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use Linux on your machine along side Windows, so you can choose the one that suits your situation best.
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
@@ -59,13 +59,14 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 **Cons**
 
 * Performance with Ubuntu won't be as sharp as a dual booting.
-
+FLi
 ####Option 2 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
+You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new Linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
-* Gives you access to both Windows and Linux
+* Gives you access to both Windows and 
+
 * This option will yield the best performance from Ubuntu as it will be installed directly on your hard drive.
 * You can customise as you like with different text editors etc
 
@@ -90,10 +91,10 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 
 **Cons**
 
-* As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
+* As the instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
 * Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
-* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
+* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the Linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
 
 
 
@@ -104,7 +105,7 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 
 * You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)
 * Your coding environment will be available from any machine with internet access.
-* These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
+* These systems typically run a more-or-less full featured Linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 **Cons**
 
